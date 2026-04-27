@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MindLog — AI Journaling</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <span class="logo-icon">🧠</span>
+        <span class="logo-text">MindLog</span>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#cta" class="btn btn-primary nav-cta">Get Started</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <span class="badge">AI-Powered Journaling</span>
+        <h1>Your thoughts, <br />brilliantly <span class="gradient-text">amplified</span>.</h1>
+        <p class="hero-subtitle">
+          MindLog uses AI to help you reflect deeper, spot patterns, and grow — one entry at a time.
+        </p>
+        <div class="hero-actions">
+          <a href="#cta" class="btn btn-primary btn-large">Start Free Trial</a>
+          <a href="#features" class="btn btn-outline btn-large">Learn More</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">10K+</span>
+            <span class="stat-label">Active Users</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">98%</span>
+            <span class="stat-label">Satisfaction</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">2M+</span>
+            <span class="stat-label">Entries Written</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="mockup-card">
+          <div class="mockup-header">
+            <span class="mockup-dot"></span>
+            <span class="mockup-dot"></span>
+            <span class="mockup-dot"></span>
+            <span class="mockup-title">Today's Reflection</span>
+          </div>
+          <div class="mockup-body">
+            <div class="mockup-entry">
+              <div class="entry-ai-badge">✨ AI Insight</div>
+              <p class="entry-text">"You've mentioned 'feeling stuck' 3 times this week. Want to explore what's blocking you?"</p>
+            </div>
+            <div class="mockup-entry user-entry">
+              <p class="entry-text">I've been feeling anxious about the new project at work...</p>
+            </div>
+            <div class="mockup-suggestions">
+              <span class="suggestion-tag">Gratitude</span>
+              <span class="suggestion-tag">Anxiety</span>
+              <span class="suggestion-tag">Goals</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">Why MindLog</span>
+        <h2>Journaling, supercharged by AI.</h2>
+        <p class="section-subtitle">More than a diary — a personal growth engine that learns from you.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🧠</div>
+          <h3>Smart Prompts</h3>
+          <p>Never stare at a blank page again. AI generates personalized prompts based on your mood and history.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Pattern Recognition</h3>
+          <p>Discover emotional trends, recurring themes, and growth opportunities hidden in your entries.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>Private by Design</h3>
+          <p>End-to-end encryption. Your thoughts stay yours. We never train on your data without consent.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎯</div>
+          <h3>Goal Tracking</h3>
+          <p>Set intentions, track habits, and get weekly AI summaries of your progress toward personal goals.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🌙</div>
+          <h3>Mood Analytics</h3>
+          <p>Visualize your emotional landscape over time with beautiful, actionable charts and insights.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💬</div>
+          <h3>AI Conversations</h3>
+          <p>Chat with your journal. Ask questions, get perspective, or just vent to a non-judgmental AI listener.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">Testimonials</span>
+        <h2>Loved by thinkers, writers, and dreamers.</h2>
+        <p class="section-subtitle">See how MindLog has transformed the journaling experience.</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"MindLog's pattern recognition helped me realize I was most anxious on Sunday evenings. I've restructured my week and feel so much better."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: #6c5ce7;">S</div>
+            <div>
+              <span class="author-name">Sarah K.</span>
+              <span class="author-title">Product Manager</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"I've tried journaling apps before, but the AI prompts make this feel like a real conversation. It's like having a therapist in my pocket."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: #e17055;">M</div>
+            <div>
+              <span class="author-name">Marcus J.</span>
+              <span class="author-title">Software Engineer</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"The goal tracking feature is incredible. I set a goal to write 3 times a week, and the AI kept me accountable with gentle nudges."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: #00b894;">E</div>
+            <div>
+              <span class="author-name">Elena R.</span>
+              <span class="author-title">Writer & Coach</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta" id="cta">
+    <div class="container cta-container">
+      <div class="cta-content">
+        <span class="badge">Start Your Journey</span>
+        <h2>Ready to meet your inner world?</h2>
+        <p class="cta-subtitle">Join thousands who've discovered the power of AI-assisted reflection. Your first 14 days are on us.</p>
+        <form class="cta-form" id="ctaForm">
+          <input type="email" placeholder="Enter your email" required />
+          <button type="submit" class="btn btn-primary btn-large">Get Started Free</button>
+        </form>
+        <p class="cta-note">No credit card required. Cancel anytime.</p>
+      </div>
+      <div class="cta-visual">
+        <div class="cta-illustration">
+          <span class="floating-emoji">🧠</span>
+          <span class="floating-emoji">✨</span>
+          <span class="floating-emoji">💡</span>
+          <span class="floating-emoji">🌱</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <div class="logo">
+          <span class="logo-icon">🧠</span>
+          <span class="logo-text">MindLog</span>
+        </div>
+        <p>AI-powered journaling for clarity, growth, and self-discovery.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Changelog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Security</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2025 MindLog. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
